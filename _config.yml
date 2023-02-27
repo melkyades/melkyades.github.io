@@ -17,6 +17,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+remote_theme: fongandrew/hydeout
 
 title: Javier Pimás
 email: 315241+melkyades@users.noreply.github.com
@@ -30,7 +31,7 @@ url: "https://melkyades.github.io" # the base hostname & protocol for your site,
 
 
 # Build settings
-theme: jekyll-theme-hydeout
+#theme: jekyll-theme-hydeout
 plugins:
   - jekyll-feed
   - jekyll-gist
