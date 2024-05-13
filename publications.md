@@ -40,6 +40,21 @@ paper {
 
 </style>
 
+#### 2022
+<p>
+<paper>PowerlangJS: A Quick Way to Get Your Smalltalk to the Web?</paper>
+<br>
+<b>Javier Pimás</b>
+<br>
+Submitted to the FAST Workshop 2022 on Smalltalk Related Technologies, co-located with the 14th Smalltalks Conference 2022 in Buenos Aires, Argentina
+<details>
+    <summary>Abstract | <a href='https://openreview.net/pdf?id=DRUVWUDX_z'>PDF</a>
+        </summary>
+    <p class='message'>
+    Powerlang bootstrapper was designed to bring alive Smalltalk systems from specifications stored in source code files. Powerlang includes an evaluator that is able to execute initialization code of the Smalltalk being bootstrapped. Could we use that same evaluator for running that same Smalltalk on the Web? We present our work in progress towards that goal, which involves transpiling the Smalltalk evaluator, written in Smalltalk, to JavaScript, generating a Smalltalk image compatible with that evaluator, and optimizing the evaluator and the Smalltalk code of the image.
+    </p>
+</details>
+</p>
 
 #### 2024
 <p>
@@ -53,13 +68,17 @@ Submitted to The Art, Science, and Engineering of Programming, 2024, Vol. 8, Iss
         </summary>
     <p class='message'>
       Object-oriented languages often use virtual machines (VMs) that provide mechanisms such as just-in-time (JIT) compilation and garbage collection (GC). These VM components are typically implemented in a separate layer, isolating them from the application
+       <br>
+      While this approach brings the software engineering benefits of clear separation and decoupling, it introduces barriers for both understanding VM behavior and evolving the VM implementation. For example, the GC and JIT compiler are typically fixed at VM build time, limiting arbitrary adaptation at run time. Furthermore, because of this separation, the implementation of the VM cannot typically be inspected and debugged in the same way as application code, enshrining a distinction in easy-to-work-with application and hard-to-work-with VM code. These characteristics pose a barrier for application developers to understand the engine on top of which their own code runs, and fosters a knowledge gap that prevents application developers to change the VM.
+      <br>
+      We propose Live Metacircular Runtimes (LMRs) to overcome this problem. LMRs are language runtime systems that seamlessly integrate the VM into the application in live programming environments. Unlike classic metacircular approaches, we propose to completely remove the separation between application and VM. By systematically applying object-oriented design to VM components, we can build live runtime systems that are small and flexible enough, where VM engineers can benefit of live programming features such as short feedback loops, and application developers with fewer VM expertise can benefit of the stronger causal connections between their programs and the VM implementation.
+      <br>
+      To evaluate our proposal, we implemented Bee/LMR, a live VM for a Smalltalk-derivative environment in 22057 lines of code. We analyze case studies on tuning the garbage collector, avoiding recompilations by the just-in-time compiler, and adding support to optimize code with vector instructions to demonstrate the trade-offs of extending exploratory programming to VM development in the context of an industrial application used in production. Based on the case studies, we illustrate how our approach facilitates the daily development work of a small team of application developers.
+      <br>
+      Our approach enables VM developers to gain access to live programming tools traditionally reserved for application developers, while application developers can interact with the VM and modify it using the high-level tools they use every day. Both application and VM developers can seamlessly inspect, debug, understand, and modify the different parts of the VM with shorter feedback loops and higher-level tools.
     </p>
 </details>
 </p>
-
-
-
-
 
 #### 2022
 <p>
