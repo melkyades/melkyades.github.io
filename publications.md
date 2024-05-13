@@ -40,13 +40,13 @@ paper {
 
 </style>
 
-#### 2022
+#### 2024
 <p>
-<paper>PowerlangJS: A Quick Way to Get Your Smalltalk to the Web?</paper>
+<paper>Live Objects All The Way Down: Removing the Barriers between Applications and Virtual Machines</paper>
 <br>
-<b>Javier Pimás</b>
+<b>Javier Pimás</b>, Stefan Marr, Diego Garbervetsky
 <br>
-Submitted to the FAST Workshop 2022 on Smalltalk Related Technologies, co-located with the 14th Smalltalks Conference 2022 in Buenos Aires, Argentina
+Submitted to The Art, Science, and Engineering of Programming, 2024, Vol. 8, Issue 2, Article 5. Also presented at the <Programming> 2024 Conference in Lund, Sweden.
 <details>
     <summary>Abstract | <a href='https://openreview.net/pdf?id=DRUVWUDX_z'>PDF</a>
         </summary>
@@ -58,7 +58,7 @@ Submitted to the FAST Workshop 2022 on Smalltalk Related Technologies, co-locate
 
 #### 2024
 <p>
-<paper>Live Objects All The Way Down: Removing the Barriers between Applications and Virtual Machines</paper>
+<paper>L</paper>
 <br>
 <b>Javier Pimás</b>, Stefan Marr, Diego Garbervetsky
 <br>
