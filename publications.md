@@ -41,6 +41,26 @@ paper {
 </style>
 
 
+#### 2024
+<p>
+<paper>Live Objects All The Way Down: Removing the Barriers between Applications and Virtual Machines</paper>
+<br>
+<b>Javier Pimás</b>, Stefan Marr, Diego Garbervetsky
+<br>
+Submitted to The Art, Science, and Engineering of Programming, 2024, Vol. 8, Issue 2, Article 5. Also presented at the <Programming> 2024 Conference in Lund, Sweden.
+<details>
+    <summary>Abstract | <a href='https://doi.org/10.22152/programming-journal.org/2024/8/5'>PDF</a>
+        </summary>
+    <p class='message'>
+      Object-oriented languages often use virtual machines (VMs) that provide mechanisms such as just-in-time (JIT) compilation and garbage collection (GC). These VM components are typically implemented in a separate layer, isolating them from the application
+    </p>
+</details>
+</p>
+
+
+
+
+
 #### 2022
 <p>
 <paper>PowerlangJS: A Quick Way to Get Your Smalltalk to the Web?</paper>
