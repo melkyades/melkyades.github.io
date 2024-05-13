@@ -42,7 +42,7 @@ paper {
 
 #### 2024
 <p>
-<paper>L</paper>
+<paper>Live Objects All The Way Down: Removing the Barriers between Applications and Virtual Machines</paper>
 <br>
 <b>Javier Pimás</b>, Stefan Marr, Diego Garbervetsky
 <br>
