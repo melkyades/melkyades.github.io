@@ -42,27 +42,11 @@ paper {
 
 #### 2024
 <p>
-<paper>Live Objects All The Way Down: Removing the Barriers between Applications and Virtual Machines</paper>
-<br>
-<b>Javier Pimás</b>, Stefan Marr, Diego Garbervetsky
-<br>
-Submitted to The Art, Science, and Engineering of Programming, 2024, Vol. 8, Issue 2, Article 5. Also presented at the <Programming> 2024 Conference in Lund, Sweden.
-<details>
-    <summary>Abstract | <a href='https://openreview.net/pdf?id=DRUVWUDX_z'>PDF</a>
-        </summary>
-    <p class='message'>
-    Powerlang bootstrapper was designed to bring alive Smalltalk systems from specifications stored in source code files. Powerlang includes an evaluator that is able to execute initialization code of the Smalltalk being bootstrapped. Could we use that same evaluator for running that same Smalltalk on the Web? We present our work in progress towards that goal, which involves transpiling the Smalltalk evaluator, written in Smalltalk, to JavaScript, generating a Smalltalk image compatible with that evaluator, and optimizing the evaluator and the Smalltalk code of the image.
-    </p>
-</details>
-</p>
-
-#### 2024
-<p>
 <paper>L</paper>
 <br>
 <b>Javier Pimás</b>, Stefan Marr, Diego Garbervetsky
 <br>
-Submitted to The Art, Science, and Engineering of Programming, 2024, Vol. 8, Issue 2, Article 5. Also presented at the <Programming> 2024 Conference in Lund, Sweden.
+Submitted to The Art, Science, and Engineering of Programming, 2024, Vol. 8, Issue 2, Article 5. Also presented at the &lt;Programming&gt; 2024 Conference in Lund, Sweden.
 <details>
     <summary>Abstract | <a href='https://doi.org/10.22152/programming-journal.org/2024/8/5'>PDF</a>
         </summary>
