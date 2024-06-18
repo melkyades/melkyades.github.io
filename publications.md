@@ -42,11 +42,11 @@ paper {
 
 #### 2024
 <p>
-<paper>Live Objects All The Way Down: Removing the Barriers between Applications and Virtual Machines</paper>
+<paper>PhD thesis (draft) - Live Objects All The Way Down: Removing the Barriers between Applications and Virtual Machines</paper>
 <br>
 <b>Javier Pimás</b>
 <br>
-PhD thesis (draft), submitted to Universidad de Buenos Aires
+Submitted to Universidad de Buenos Aires
 <details>
     <summary>Abstract | <a href='/assets/images/Thesis.pdf'>PDF</a>
         </summary>
