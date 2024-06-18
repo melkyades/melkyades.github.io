@@ -44,6 +44,79 @@ paper {
 <p>
 <paper>Live Objects All The Way Down: Removing the Barriers between Applications and Virtual Machines</paper>
 <br>
+<b>Javier Pimás</b>
+<br>
+PhD thesis (draft), submitted to Universidad de Buenos Aires
+<details>
+    <summary>Abstract | <a href='/assets/images/Thesis.pdf'>PDF</a>
+        </summary>
+    <p class='message'>
+    Object-oriented languages often use virtual machines (VMs)
+that provide mechanisms such as just-in-time (JIT) compilation
+and garbage collection (GC).
+    <br>
+    These VM components are typically implemented in a separate layer,
+isolating them from the application.
+    <br>
+    While this approach brings the software engineering benefits
+of clear separation and decoupling,
+it introduces barriers for both understanding VM behavior
+and evolving the VM implementation because it
+weakens the causal connections between applications and VM\@.
+    <br>
+    For example, the GC 
+and JIT compiler are typically
+fixed at VM build time, limiting arbitrary adaptation at run time.
+Furthermore,
+because of this separation,
+the implementation of the VM cannot typically be inspected and debugged
+in the same way as application code,
+enshrining a distinction in easy-to-work-with application
+and hard-to-work-with VM code.
+    <br>
+    These characteristics pose a barrier for application developers to
+understand the engine on top of which their own code runs, and fosters
+a knowledge gap that prevents application developers to change the VM\@.
+    <br>
+    We propose Live Metacircular Runtimes (LMRs) to overcome this
+problem. LMRs are language runtime systems that seamlessly integrate the
+VM into the application in live programming environments.
+Unlike classic metacircular approaches, we propose to completely remove
+the separation between application and VM\@.
+    <br>
+    By systematically applying object-oriented design to VM components,
+we can build live runtime systems that are small and flexible
+enough, where VM engineers can benefit of live programming features such
+as short feedback loops, and application developers with fewer VM expertise
+can benefit of the stronger causal connections between their programs and
+the VM implementation.
+    <br>
+    To evaluate our proposal, we implemented Bee/LMR, a live VM for a
+Smalltalk-derivative environment in 22057 lines of code.
+We analyze case studies on tuning the garbage collector,
+avoiding recompilations by the just-in-time compiler,
+and adding support to optimize code with vector instructions
+to demonstrate the trade-offs of extending exploratory
+programming to VM development
+in the context of an industrial application used in production.
+Based on the case studies, we illustrate how our approach
+facilitates the daily development work
+of a small team of application developers.
+    <br>
+    Our approach enables VM developers to gain access to live
+programming tools traditionally reserved for application
+developers, while application developers can interact with the VM
+and modify it using the high-level tools they use every day.
+Both application and VM developers can seamlessly inspect, debug,
+understand, and modify the different parts of the VM with shorter
+feedback loops and higher-level tools.
+    </p>
+</details>
+</p>
+
+<p>
+<paper>Live Objects All The Way Down: Removing the Barriers between Applications and Virtual Machines</paper>
+<br>
 <b>Javier Pimás</b>, Stefan Marr, Diego Garbervetsky
 <br>
 Submitted to <a href='https://doi.org/10.22152/programming-journal.org/2024/8/5'>The Art, Science, and Engineering of Programming, 2024, Vol. 8, Issue 2, Article 5</a>. Presented at the &lt;Programming&gt; 2024 Conference in Lund, Sweden.
