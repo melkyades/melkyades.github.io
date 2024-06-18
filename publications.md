@@ -125,7 +125,7 @@ Submitted to the 14th Dynamic Languages Symposium (DLS-18), co-located with SPLA
 </p>
 
 <p>
-<paper>Migrating Bee Smalltalk to a Different Instruction Set Architecture</paper>
+<paper>Migrating Bee Smalltalk to a Different Instruction Set Architecture: An Experience Report on Porting a Dynamic Metacircular Runtime from x86 to AMD64</paper>
 <br>
 <b>Javier Pimás</b>
 <br>
