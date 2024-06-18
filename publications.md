@@ -62,7 +62,7 @@ isolating them from the application.
 of clear separation and decoupling,
 it introduces barriers for both understanding VM behavior
 and evolving the VM implementation because it
-weakens the causal connections between applications and VM\@.
+weakens the causal connections between applications and VM.
     <br>
     For example, the GC 
 and JIT compiler are typically
@@ -76,13 +76,13 @@ and hard-to-work-with VM code.
     <br>
     These characteristics pose a barrier for application developers to
 understand the engine on top of which their own code runs, and fosters
-a knowledge gap that prevents application developers to change the VM\@.
+a knowledge gap that prevents application developers to change the VM.
     <br>
     We propose Live Metacircular Runtimes (LMRs) to overcome this
 problem. LMRs are language runtime systems that seamlessly integrate the
 VM into the application in live programming environments.
 Unlike classic metacircular approaches, we propose to completely remove
-the separation between application and VM\@.
+the separation between application and VM.
     <br>
     By systematically applying object-oriented design to VM components,
 we can build live runtime systems that are small and flexible
