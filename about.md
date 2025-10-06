@@ -14,7 +14,7 @@ permalink: /about/
   
   Within Bee Smalltalk, SqueakNOS and now [Egg Smalltalk](https://github.com/powerlang/egg) projects I have been trying to make live-programming of system-level concerns like VMs more practical to application programmers.
 
-  I currently work for Labware and Quorum Software, where I apply my expertise to real-world challenges while pursuing a PhD in Computer Science at Buenos Aires University, where I occasionally do teaching.
+  I currently work for Labware and Quorum Software, where I apply my expertise to real-world challenges after obtaining a PhD in Computer Science at Buenos Aires University, where I occasionally do teaching.
 </div>
 
 
